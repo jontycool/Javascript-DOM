@@ -1,0 +1,29 @@
+body {
+  background-image: linear-gradient(120deg, #00c853 0%, #48b1bf 100%);
+}
+#main-body {
+  padding: 50px;
+}
+#list:hover span {
+  opacity: 1;
+  width: 50px;
+}
+
+span {
+  color: #000000;
+  height: 100%;
+  width: 0;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  background: #f76666;
+  opacity: 0;
+  transition: 0.2s linear;
+}
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+li:nth-child(2n) {
+  background: #f1f2f6;
+}
